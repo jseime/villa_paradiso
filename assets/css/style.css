@@ -184,3 +184,10 @@ footer a { color: #cfc5b7; }
 
 /* Olive oil label: show the whole label, not a crop */
 #olive-oil .split-media img { aspect-ratio: auto; max-width: 420px; margin: 0 auto; box-shadow: 0 12px 30px rgba(43, 38, 32, .18); }
+
+/* Hero: keep the text low and compact so the chapel stays visible above it */
+.hero { min-height: 100vh; }
+.hero::before { background: linear-gradient(180deg, rgba(0,0,0,.35) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,.15) 55%, rgba(0,0,0,.72) 100%); }
+.hero .wrap { width: 100%; padding-bottom: 7vh; }
+.hero h1 { font-size: clamp(2.3rem, 4.4vw, 3.6rem); max-width: 16em; }
+.hero p { font-size: 1.08rem; max-width: 34em; }
