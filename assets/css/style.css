@@ -181,3 +181,6 @@ footer a { color: #cfc5b7; }
   form.enquiry { grid-template-columns: 1fr; }
   .audience-panel { padding: 26px 22px; }
 }
+
+/* Olive oil label: show the whole label, not a crop */
+#olive-oil .split-media img { aspect-ratio: auto; max-width: 420px; margin: 0 auto; box-shadow: 0 12px 30px rgba(43, 38, 32, .18); }
